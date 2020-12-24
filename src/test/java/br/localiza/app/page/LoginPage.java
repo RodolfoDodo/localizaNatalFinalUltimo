@@ -14,7 +14,8 @@ public class LoginPage {
 
 	public void with(String matricula, String senha) {
 		
-		
+		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_matricula").sendKeys(matricula);
+
 		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_senha").sendKeys(senha);
 		
 		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/botao_configuracoes").click();
@@ -39,7 +40,6 @@ public class LoginPage {
 		
 		//DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_senha").sendKeys(senha);
 		
-		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_matricula").sendKeys(matricula);
 		
 		//tapLogin(505, 1576);
 		

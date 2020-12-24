@@ -14,8 +14,8 @@ public class LoginPage {
 
 	public void with(String matricula, String senha) {
 		
-		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_matricula").sendKeys(matricula);
 		
+		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_senha").sendKeys(senha);
 		
 		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/botao_configuracoes").click();
 
@@ -37,12 +37,11 @@ public class LoginPage {
 		//DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/botao_login").click();
 		
 		
-		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_senha").sendKeys(senha);
+		//DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_senha").sendKeys(senha);
 		
-		//tapLogin(505, 1576);
+		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/input_matricula").sendKeys(matricula);
 		
-		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/botao_login").click();
-		
+		tapLogin(505, 1576);
 		
 		DriverFactory.getDriver().findElementById("com.localiza.menuapp:id/botaoPositivo").click();
 
@@ -50,7 +49,7 @@ public class LoginPage {
 
 	
 	public void tapLogin(int x, int y) {
-		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 
 	}
 

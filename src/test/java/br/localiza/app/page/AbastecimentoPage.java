@@ -53,7 +53,7 @@ public class AbastecimentoPage {
 	}
 	
 	public void tapGasolina(int x, int y) {
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 
 	}
 	
@@ -81,7 +81,7 @@ public class AbastecimentoPage {
 	}
 
 	public void tapTanque(int x, int y) {
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 
 	}
 	
@@ -126,12 +126,12 @@ public class AbastecimentoPage {
 	
 	public void tapPartidaFriogasolina(int x, int y) {
 
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 	}
 	
 	public void tapPartidaFrio(int x, int y) {
 
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 	}
 	
 
@@ -150,7 +150,7 @@ public class AbastecimentoPage {
 	
 	public void tapPartidaFrioEtanol(int x, int y) {
 
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 	}
 
 	
@@ -192,7 +192,7 @@ public class AbastecimentoPage {
 	}
 	
 	public void tapNota(int x, int y) {
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 
 	}
 	

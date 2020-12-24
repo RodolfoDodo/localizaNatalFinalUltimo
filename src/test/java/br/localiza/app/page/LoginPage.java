@@ -47,7 +47,7 @@ public class LoginPage {
 
 	
 	public void tapLogin(int x, int y) {
-		new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
+		//new TouchAction<>(DriverFactory.getDriver()).tap(PointOption.point(x, y)).perform();
 
 	}
 
